@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>9ec7bc0d-e1d9-4e4a-bb6b-368551483d60</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PythonApplication1.py</StartupFile>
+    <StartupFile>Uygulama.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,22 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PythonApplication1.py" />
+    <Compile Include="Uygulama4.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Uygulama.py" />
+    <Compile Include="Uygulama1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Uygulama2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Uygulama3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Uygulama5.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.7" />
